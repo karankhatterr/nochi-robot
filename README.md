@@ -4,9 +4,11 @@ A tiny desk companion built on an ESP32‑C3 SuperMini and a 0.96" 128×64 OLED.
 
 Nochi is a hobby build **inspired by [Dasai Mochi](https://dasai.com.au/)**, the small animated desk robot. Dasai sells a finished product; this project rebuilds the idea from scratch with off‑the‑shelf parts: my own hardware build, firmware and touch interaction.
 
-<!-- Add a photo or short video of Nochi here, e.g.:
-![Nochi on my desk](docs/nochi.jpg)
--->
+
+
+https://github.com/user-attachments/assets/8d98697c-e84a-486f-bcea-aad763c41262
+
+
 
 ## Features
 
@@ -17,6 +19,9 @@ Nochi is a hobby build **inspired by [Dasai Mochi](https://dasai.com.au/)**, the
 - **Boot intro** made of pre‑rendered 1‑bit frames.
 - **GIF playback straight from flash**: emotes are stored as GIF files inside C arrays and decoded frame by frame on the ESP32, so 32+ animations fit in the 4 MB flash of a €3 board.
 - **A converter script** that turns any GIF into a new emote (see [Make your own emotes](#make-your-own-emotes)).
+
+<img width="480" height="848" alt="0ED201A2-3121-4CF8-9FB4-3551DD5F4432" src="https://github.com/user-attachments/assets/049bec0c-339c-4714-beec-1ecac35ed87c" />
+
 
 ## How it works
 
